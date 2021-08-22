@@ -1,0 +1,140 @@
+tiles:
+- [floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor]
+- [floor,floor,straight/E,straight/E,3way_left/W,straight/E,curve_left/N,floor, curve_left/W,straight/E,curve_left/N,floor]
+- [floor,straight/S,floor,floor,straight/S,floor,straight/S,floor,straight/S,floor,straight/S,floor]
+- [floor,straight/S,floor,floor,straight/S,floor,straight/S,floor,straight/S,floor,straight/S,floor]
+- [floor,3way_left/S,straight/E,straight/E,4way,straight/E,4way,straight/E,3way_left/N,floor,straight/S,floor]
+- [floor, straight/S,floor,floor,straight/S,floor,straight/S,floor,straight/S,floor,straight/S,floor]
+- [floor,curve_left/S,straight/E,straight/E,3way_left/E,straight/E,curve_left/E,floor, curve_left/S,straight/E,curve_left/E,floor]
+- [floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor,floor]
+objects:
+ sign1:
+  kind: sign_do_not_enter
+  pos: [2.95, 3.95]
+  rotate: 0
+  height: 0.18
+ sign2:
+  kind: sign_do_not_enter
+  pos: [2.05, 5.95]
+  rotate: 90
+  height: 0.18
+  
+ sign3:
+  kind: sign_left_T_intersect
+  pos: [5.05, 3.95]
+  rotate: 0
+  height: 0.18
+ sign4:
+  kind: sign_right_T_intersect
+  pos: [3.95, 5.05]
+  rotate: 180
+  height: 0.18
+ sign5:
+  kind: sign_no_left_turn
+  pos: [5.05, 5.05]
+  rotate: 90
+  height: 0.18
+
+ sign6:
+  kind: sign_left_T_intersect
+  pos: [0.95, 6.95]
+  rotate: -90
+  height: 0.18
+ sign7:
+  kind: sign_right_T_intersect
+  pos: [2.05, 8.05]
+  rotate: 90
+  height: 0.18
+ sign8:
+  kind: sign_no_right_turn
+  pos: [2.05, 6.95]
+  rotate: 0
+  height: 0.18
+  
+ sign9:
+  kind: sign_right_T_intersect
+  pos: [5.05, 8.95]
+  rotate: 0
+  height: 0.18
+ sign10:
+  kind: sign_left_T_intersect
+  pos: [3.95, 10.05]
+  rotate: 180
+  height: 0.18
+ sign11:
+  kind: sign_T_intersect
+  pos: [3.95, 8.95]
+  rotate: -90
+  height: 0.18
+
+ sign12:
+  kind: sign_4_way_intersect
+  pos: [3.95, 6.95]
+  rotate: -90
+  height: 0.18
+ sign13:
+  kind: sign_4_way_intersect
+  pos: [3.95, 8.05]
+  rotate: 180
+  height: 0.18
+ sign14:
+  kind: sign_4_way_intersect
+  pos: [5.05, 8.05]
+  rotate: 90
+  height: 0.18
+ sign15:
+  kind: sign_4_way_intersect
+  pos: [5.05, 6.95]
+  rotate: 0
+  height: 0.18
+  
+ sign16:
+  kind: sign_4_way_intersect
+  pos: [5.95, 6.95]
+  rotate: -90
+  height: 0.18
+ sign17:
+  kind: sign_4_way_intersect
+  pos: [5.95, 8.05]
+  rotate: 180
+  height: 0.18
+ sign18:
+  kind: sign_4_way_intersect
+  pos: [7.05, 8.05]
+  rotate: 90
+  height: 0.18
+ sign19:
+  kind: sign_stop
+  pos: [7.05, 6.95]
+  rotate: 0
+  height: 0.18
+  
+ sign20:
+  kind: sign_yield
+  pos: [7.95, 8.05]
+  rotate: 180
+  height: 0.18
+  
+ sign21:
+  kind: sign_pedestrian
+  pos: [9.95, 6.95]
+  rotate: -90
+  height: 0.18
+ sign22:
+  kind: sign_pedestrian
+  pos: [11.05, 8.05]
+  rotate: 90
+  height: 0.18
+  
+ sign23:
+  kind: sign_pedestrian
+  pos: [7.95, 4.95]
+  rotate: -90
+  height: 0.18
+ sign24:
+  kind: sign_pedestrian
+  pos: [9.05, 6.05]
+  rotate: 90
+  height: 0.18
+ 
+tile_size: 0.585
